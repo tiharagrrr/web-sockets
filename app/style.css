@@ -1,9 +1,10 @@
 * {
     font-size: 1.5rem;
+    font-family:'Courier New', Courier, monospace
 }
 
 body {
-    background: #333;
+    background: #292929;
     color: #fff;
     padding: 1rem;
 }
@@ -19,10 +20,24 @@ ul {
     flex-flow: column;
     justify-content: left;
     list-style-type: none;
-}
+    gap: 0.5rem;
+    padding: 0.5rem;
 
+}
+li {
+    padding: 0.5rem;
+    border: 0.5px solid #ffffff33;
+    border-radius: 10px;
+    width: fit-content;
+}
 input,
 button {
     border-radius: 10px;
     padding: 10px;
 }
+
+.chat {
+    width: 70%;
+    margin: 0 auto;;
+}
+
