@@ -1,6 +1,11 @@
+@font-face {
+    font-family: ProductSans;
+    src: url('assets/font/Product Sans Regular.ttf');
+  }
+
 * {
     font-size: 1.5rem;
-    font-family:'Courier New', Courier, monospace
+    font-family:'ProductSans', sans-serif;
 }
 
 body {
